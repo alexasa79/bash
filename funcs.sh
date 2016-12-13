@@ -44,4 +44,4 @@ git_branch() {
 	fi
 }
 #export PS1="\w (oracle1)\$(git_branch) --# "
-
+#export PS1="\e[1m\033[38;5;226m\w\033[38;5;201m\$(git_branch)\033[0m --$ \033[0m"
